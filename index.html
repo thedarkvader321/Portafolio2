@@ -15,14 +15,14 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#sobremi">Sobre Mi</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#inicio" onclick="selecionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="selecionar()">Sobre Mi</a></li>
+                    <li><a href="#skills" onclick="selecionar()">Skills</a></li>
+                    <li><a href="#portfolio" onclick="selecionar()">Portfolio</a></li>
+                    <li><a href="#contacto" onclick="selecionar()">Contacto</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
@@ -198,5 +198,15 @@
             </div>
         </div>
     </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
